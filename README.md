@@ -24,14 +24,14 @@ Develop a model to find the variables which are significant the demand for share
 
 ## Conclusions
 - Significant variables to predict the demand for shared bikes:
-yr
-atemp
-windspeed
-Season(Spring,Winter)
-Month(July,September)
-weekday_Sunday
-weathersit_Light_Snow_Light Rain_Thunderstorm
-weathersit_Mist_Broken clouds
+- yr
+- atemp
+- windspeed
+- Season(Spring,Winter)
+- Month(July,September)
+- weekday_Sunday
+- weathersit_Light_Snow_Light Rain_Thunderstorm
+- weathersit_Mist_Broken clouds
     
 - Analysing the above model, the comapany should focus on the following features:
 Company should focus on expanding business during Spring when the weather conditions are pleasant.
