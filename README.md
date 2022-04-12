@@ -18,6 +18,10 @@ Which variables are significant in predicting the demand for shared bikes. How w
 Develop a model to find the variables which are significant the demand for shared bikes with the available independent variables. It will be used by the management to understand and manipulate the business strategy to meet the demand levels and meet the customer's expectations.
 
 
+## Technologies Used
+- pandas , numpy , matplotlib.pyplot , seaborn , train_test_split , MinMaxScaler , RFE , LinearRegression , statsmodels.api , variance_inflation_factor , mean_squared_error , r2_score , 
+
+
 ## Conclusions
 - We can see the demand for bikes depends mainly on below variables:
 'yr', 'atemp', 'windspeed', 'season_spring', 'season_winter','mnth_jan', 'mnth_jul', 'mnth_sept', 'weekday_Sunday', 'weathersit_Light_Snow_Light Rain_Thunderstorm','weathersit_Mist_Broken clouds'
@@ -31,10 +35,6 @@ Demand is higher in month of September.
 Company should focus on expanding business during September.
 Based on previous data it is expected to have a boom in number of users once situation comes back to normal, compared to 2019.
 Hence when the situation comes back to normal, the company should come up with new offers during spring when the weather is pleasant and also advertise a little for September as this is when business would be at its best.
-
-
-## Technologies Used
-- pandas , numpy , matplotlib.pyplot , seaborn , train_test_split , MinMaxScaler , RFE , LinearRegression , statsmodels.api , variance_inflation_factor , mean_squared_error , r2_score , 
 
 
 ## Contact
