@@ -23,17 +23,23 @@ Develop a model to find the variables which are significant the demand for share
 
 
 ## Conclusions
-- We can see the demand for bikes depends mainly on below variables:
-'yr', 'atemp', 'windspeed', 'season_spring', 'season_winter','mnth_jan', 'mnth_jul', 'mnth_sept', 'weekday_Sunday', 'weathersit_Light_Snow_Light Rain_Thunderstorm','weathersit_Mist_Broken clouds'
+- Significant variables to predict the demand for shared bikes:
+yr
+atemp
+windspeed
+Season(Spring,Winter)
+Month(July,September)
+weekday_Sunday
+weathersit_Light_Snow_Light Rain_Thunderstorm
+weathersit_Mist_Broken clouds
     
-- Demands increases in the month of September,winter season,if atemp is high and next year
-
-- Demand decreases whenever the windspeed increases,during season_spring,mnth_jan,mnth_jul,weekday_Sunday,whenever the weather condition is weathersit_Light_Snow_Light Rain_Thunderstorm & weathersit_Mist_Broken clouds
+- Analysing the above model, the comapany should focus on the following features:
+Company should focus on expanding business during Spring when the weather conditions are pleasant.
+It should focus on expanding business during September when there is already a peak time.
+Based on previous data it is expected to have a boom in number of users once situation comes back to normal, compared to 2019.
+There would be less bookings during Thunderstorm ,cloudy or Rainy seasons,hence this time could probably be used to serice the bikes without having business impact.
 
 - Final recommendations for the company:
-Demand is higher in month of September.
-Company should focus on expanding business during September.
-Based on previous data it is expected to have a boom in number of users once situation comes back to normal, compared to 2019.
 Hence when the situation comes back to normal, the company should come up with new offers during spring when the weather is pleasant and also advertise a little for September as this is when business would be at its best.
 
 
